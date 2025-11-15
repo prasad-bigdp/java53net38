@@ -1,0 +1,26 @@
+body{
+    height: 500vh;
+}
+.parent{
+    height: 100vh;
+    padding-top: 200px;
+    background-color: green;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* position: relative;
+    left: 100px;
+    top: 200px; */
+    /* position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 50%; */
+    /* position: fixed;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%; */
+    position: sticky;
+    top: 0;
+}

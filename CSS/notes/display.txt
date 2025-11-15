@@ -1,0 +1,38 @@
+Display : display is used to arrange the elements. block elements always appears iin new line. inline elements always continues in same line but we can change this using display property
+   display :block --> make the element block
+   display:inline --> make the element inline
+   display:inline-block --> make the element inline-block(it is similar to inline but also contains height & width)
+   display: none ---> disappears the element (visibility:hidden also disappears the elements it holds the space)
+
+Flex Container :  flex is used to adjust child items or arrange child items in single direction(row/column)
+Apply the flex properties to parents
+  Parent properties:
+     display:flex --> it automatically arranges child items into row direction
+     flex-direction: row/column/row-reverse/column-reverse;
+     The direction in which items are adjusted is called main axis and opposite one is called cross axis
+     justify-content:left/right/start/end/center/space-between/space-evenly/space-around
+     it adjusts the child items around main axis
+     align-items : left/start/right/end/center
+     gap : it is used to provide gap between the items
+     flex-wrap: nowrap/wrap/wrap-reverse; it is used to arrange elements in multiple rows/columns
+     align-content :left/right/start/end/center/space-between/space-evenly/space-around
+     it is used to adjust gap between the rows/columns
+
+child Properties: 
+     order:used to arrange child items in an increasing order. by default order is 0.
+     flex-grow: it is used to make an element grow when space is available
+     flex-shrink : it is used to make an element shrink when space is not available
+     flex-basis: it is used to keep an element specific size
+     align-self:left/right/start/end/center -- used to move single element in cross axis
+   
+     
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+Javascript: Javascript is a client side programming language which is used to make websites more interactive and functional.
+
+when an application is built, it contains three layers
+    i.e., client, server, database
+
+JS can also do server side called nodejs but we focus here on client side
+
+Javascript is synchronous and single threaded language. AS it is purely based on browsers for client side, it can use browser developer tools
+
+1995,december 4 - Breden Eich at netscape navigator company. initially it is named as "LIVESCRIPT". it is later changed as "javascript" to gain popularity similar to JAVA
+
+How to include JS into HTML?
+  we can include JS into HTML using two ways
+  i. internal
+  ii. External
+
+i. internal Javascript : Here, we can write the JS code between 'script' element like
+   <script>
+      console.log("hello world");
+   </script>
+
+JS code can be executed in Browsers because Browsers contain JS Engine. For Google Chrome, JS Engine is "V8"
+
+ii. External Javascript: We can write js code in .js file and can connect to html using script tag with "src" attribute
+
+//HTML
+   <script src="./script.js"></script>
+
+//JS
+   console.log("hello world")
+
+
+Variables in Javascript: variables are used to store a value. In JS, we can do this using three keywords var, let and const
+var:  var is a function scoped variable which is used to declare variables and it can be redeclared, reassigned and can even used before declaration
+let :  let is a block scoped variable which can be reassigned but cannot be redeclared . block scoped variables cannot be used before initalization also
+const : const is also block scoped variable which cannot be redeclared or reassigned. it cannot be accesses before initalization
+In 2015, JS released new version called "ES6"(ECMASCRIPT6). it starts let and const . The latest version released on JUNE 2025 is ES16
+
+Browsers also Provide Default methods like
+alert(msg) -- it is used to print an alert
+confirm(question) -- it is used to ask user a confirmation
+prompt(msg) -- it is used to accept input from user
+
+Datatypes in JS:
+    JS follows dynamic data typing. The Datatype of a variable is determined based on the value it holds. if the value is not provided at the time of declaration . it is considered as 'undefined'
+    JS Datatypes are divided as two types
+    i. primitive data types: These Datatypes stores the value 
+       eg: number, string, boolean, undefined, null
+    ii. non-primitive Datatypes: these Datatypes usually stores multiple values and refer to an address. These are also reference data types
+    eg: arrays, objects, functions
+
+     In JS, we can change one datatype to another datatype called "Type Conversion" or "Type Casting". There are two ways of type Casting
+     i. implicit type Casting
+     ii. explicit type Casting
+
+     i. implicit type casting: here datatypes are automatically converted based on operations
+     eg: "5"+4 ----> "54"
+          "5"-4 ----> 1
+     ii. explicit type casting: here datatypes are converted using external methods/operators
+     eg : +"5" + 4 ---->9
+          parseInt("5")+4 ---->94
+
+
+
+
+
+
+
+
+
+
+
+
+
+

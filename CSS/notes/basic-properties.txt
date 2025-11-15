@@ -1,0 +1,74 @@
+i. Background Properties:
+    we can set colors to the background of an element using background-color
+   background-color: colorName
+   Total colors can be represented in 6 ways mostly
+   hexCode: unique hexa decimal code with #
+   rgb(): mix of red,green, blue where each colors goes from 0 to 255
+   rgba(): a stands for alpha(0.0-1.0) which represents lighness to dark
+   hsl(hue,saturation,lightness): hue is degree in color wheel, saturation is % towards dark, lighness is % towards lightness
+
+   background-image: it is used to set background images or gradients
+   background-image:url('imagepath')
+   background-position: it is used to adjust the position of background-image such as left right , center center etc..,
+   background-repeat: by default, background will be repeated, to stop we can use no-repeat/repeat-x/repeat-y
+   background-size: used to adjust image to screen
+         contain -- adjust to screen portrait/landscape
+         cover -- adjust to full screen with zoom
+
+   we can declare gradients using background-image property. There are three gradients possible
+
+   i. linear-gradient : it contains multiple colors from one direction to another direction
+   background-image: linear-gradient(to right,color1,color2)
+   instead of to right, we can also provide x deg, to left,to top and to bottom
+
+   ii. radial-gradient : it contains multiple colors from center of circle to cirumference.
+   background-image:radial-graident(color1,color2)
+
+   iii. conic-gradient : it contains multiple colors in a cone shape
+   background-image:conic-gradient(from x deg, colro1,color2)
+
+   background-attachement: fixed makes the website background fixed
+
+
+Text Properties : we can make the text in different designs using below text Properties
+    color :  sets the color of text
+    text-transform: used to transform  the text(uppercase/lowercase/captialize)
+    text-decoration: size shape color position;
+    size can be any pixels. shape can be solid/dotted/dashed/double/wavy/none.
+    color can be any color. position can be underline/overline/line-through
+    text-shadow :xpx ypx color -- provides shadow to the text
+    text-align: aligns the text -- left,right,center,justify
+    line-height :xpx -- adjust line height of paragraphs
+    letter-spacing:xpx -- adjust spacing between letters
+    word-spacing:xpx -- adjust spacing between words
+    text-wrap : it is used to adjust wrapping of paragraphs
+
+Font - properties : 
+   we can assign different families(serif,sans-serif,monospace,cursive,fantasy) to the elemenents using below properties
+   font-family: fontName,familyName
+   Font-size:xpx -- defines the size of font
+   font-weight:100-900/bold/bolder
+   font-style:normal/italic/oblique
+
+   we can assign google fonts by going to "google fonts" --> select a font -->click get font -->click get embed code --> click "import" --> copy import url and paste in css --> mention font name to elemenents
+
+   There are other famous websites like dafont, 1001 fonts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

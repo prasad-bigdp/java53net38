@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+header,footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+header{
+    font-size: 48px;
+    font-family: "Dancing Script", cursive;
+}
+header h2{
+    animation: float 0.5s ease alternate infinite;
+}
+main{
+    margin:20px auto;
+    max-width: 1280px;
+}
+.title{
+    font-size: 32px;
+    text-align: center;
+    background-image: linear-gradient(to right, blue,red);
+    background-clip: text;
+    color: transparent;
+    margin: 50px 0px;
+}
+#categories{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.category>img{
+    height: 100px;
+    width: 100px;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: palevioletred;
+    border-top-left-radius: 50%;
+    border-top-right-radius:50%;
+}
+.category:hover{
+    transform: translateY(-10px);
+}
+#books{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px 20px gray;
+    border-radius: 30px;
+}
+.book:hover{
+    box-shadow: 10px 20px 50px orange;
+}
+.book>img{
+    height: 300px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 20px;
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
+.watsapp img{
+    animation: rotate 0.5s ease normal infinite;
+}
+.watsapp img{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+
+@keyframes float {
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+

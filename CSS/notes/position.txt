@@ -1,0 +1,39 @@
+Position in CSS : it is used to specify where exactly the elements need to be positioned.
+There are 5 positions available in CSS
+i. static: static is the default position for every element. it won't have any impact of top,left,right,bottom. so, we cannot move this.
+ii. Relative : Relative is used to move the element from its current position. it used top,left,right,bottom to provide the gaps/to move
+   position:Relative;
+   left:100px;
+   top:100px;
+   moves the element with gap left and top 100px each
+
+iii. absolute: absolute is used to move the element based on body . 
+    position:absolute;
+    right:0;
+    bottom:0;
+    moves the element bottom right corner. but it is scrollable
+iv. fixed : fixed is used to move the element based on body but scrolling will not have effect on this
+    position:fixed;
+    right:0;
+    bottom:0;
+    makes the element fixed always at bottom right corner
+v. sticky : sticky is similar to fixed but it initially follows relative. it stays as relative until position met its values and stays fixed until the parent container is over
+   position:sticky;
+   top:0;
+   makes the element fixed when it reaches top:0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 10px;
+    color: white;
+    font-size: 48px;
+    display: inline-block;
+}
+.box2{
+    /* visibility: hidden; */
+  /*  display: none;
+} 
+*/
+#parent{
+height: 500px;
+width: 500px;
+border: 2px solid red;
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap-reverse; */
+justify-content: center;
+/* align-content:space-evenly; */
+align-items: center;
+/* justify-content: space-between; */
+  gap: 10px;
+}
+.child{
+    font-size: 48px;
+    background-color: green;
+    width: 100px;
+    height: max-content;
+}
+
+.child2{
+    order:3;
+    flex-grow:2
+}
+.child3{
+    order:4;
+    flex-basis: 100px;
+
+}
+.child4{
+    order:-1;
+    flex-shrink:2;
+    align-self: end;
+}

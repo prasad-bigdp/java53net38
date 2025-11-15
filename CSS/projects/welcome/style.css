@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    background-image: url('https://t4.ftcdn.net/jpg/03/74/16/75/360_F_374167530_ZsM37zja3byI9dJaeNfBCF1tcQz5ZA8y.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: PRASADFONT;
+    src: url('./HorrorFont-Regular.ttf');
+}
+h2{
+    color: red;
+    font-size: 48px;
+    text-align: center;
+    font-family: PRASADFONT;
+}

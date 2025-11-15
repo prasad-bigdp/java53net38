@@ -1,0 +1,45 @@
+Grid : Grid is used to create a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+ Parent Properties: 
+    These Properties are used to make the parent container as grid 
+    display:grid ---> container becomes the grid
+    grid-template-columns : column1-width column2-width ....
+    we can mention each columns width  in px or % or fr(fractions)
+    eg: grid-template-columns : 100px 200px ; creates 2 columns with specific widths
+        grid-template-columns: 1fr 2fr 3fr ; creates 3 columns with each width 1/6,2/6 and 3/6
+        grid-template-columns : 10% 20% 50% ; creates 3 columns of respective percentages
+
+        we can even mix widths and we can use repeat functions to repeat widths
+        grid-template-columns:repeat(3,1fr); creates 3 columns of each width 1/3
+    grid-template-rows : it is similar to grid -template-columns but used for rows height
+   we can use shortcut grid-template : grid-template-rows/grid-template-columns
+
+   justify-content: used to move elements along rows
+   align-items : used to move elements along columns. we can even use place-items and place-content instead of These
+   row-gap : creates gap between the rows
+   column-gap : creates gap between the columns
+   gap : creates gap between rows and columns
+
+   Child Properties  : These Properties are used to make the child adjust in the grid.
+   grid-column-start : starting-column-line
+   grid-column-end : ending-column-line
+   grid-column: grid-column-start/grid-column-end
+   grid-row-start:starting-row-line
+   grid-row-end:ending-row-line
+   grid-row: grid-row-start/grid-row-end
+
+   grid-area: grs/gcs/gre/gce
+   order : we can decide order in which elements arranged. by default order is zero
+   
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    /* filter: grayscale(); */
+    transition: all 1s linear;
+}
+#box1:hover{
+    /* background-color: red;
+    height: 500px;
+    width: 500px; */
+    /* transform: scale(0.5); */
+    /* filter:invert() */
+}

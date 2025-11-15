@@ -1,0 +1,49 @@
+@font-face {
+    font-family: shinchanFont;
+    src: url('./COMICATE.TTF');
+}
+
+body{
+    background-image: url('https://images3.alphacoders.com/125/1251357.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    backdrop-filter: blur(3px);
+    height: 100vh;
+}
+.logo{
+    float: left;
+}
+.logo>img{
+    height: 100px;
+    float: left;
+}
+.logo>p{
+    font-size: 48px;
+    color: green;
+    font-family: shinchanFont;
+}
+section{
+    clear: both;
+}
+.shinchan-image{
+    height: 200px;
+    float: right;
+}
+section>p{
+    font-size: 32px;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 20px 30px;
+    border-radius: 50px 0px 50px 0px;
+}
+.x{
+    font-weight: bold;
+    font-size: 48px;
+    background-image: linear-gradient(to right,orange,green);
+    color: transparent;
+    background-clip: text;
+}

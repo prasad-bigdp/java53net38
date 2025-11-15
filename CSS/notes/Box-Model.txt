@@ -1,0 +1,53 @@
+Box Model : It is considered as "the heart of CSS". it is fundamental topic of design
+Box Model contains 4 properties
+  i. border : defines the border of element
+        border:width type color;
+    type can be solid/dashed/dotted/groove/double
+    color is by default text color
+    we can also provide border-left,border-right,border-top,border-bottom
+
+  ii. border-radius : defines the corner radius of element's border. 50% of border radius can make circle for square elements
+       border-radius: width or %;
+    we can also provide border-top-left-radius, border-top-right-radius etc..,
+  iii. padding : it is the space between border and content of element(inside).padding might increase actual height/width of element. To solve this, we can use "box-sizing:border-box"
+   padding:size; it applies padding to all sides
+   padding : top-bottom left-right;
+   padding: top left-right bottom;
+   padding: top right bottom left;
+
+   iv. margin : it is the gap outside the border. 
+   it is similar to padding.
+   margin: width;
+   * margin:auto can make element center horizontally in its width
+
+Different units in CSS: In CSS we can define sizes in different units such as
+  i. px(pixels) :  it is smallest units like a dot that fills height and width of screen resolution
+  ii. vh/vw : vh stands for viewport height and vw stands for viewport width. it is the % of total screen height/width
+  iii. percentage(%) : percentage is used to get x% of parents properties. if child contains height:50% , means it is 50% of parents height
+  iv. em(enumerated value) : it is used to make all child property depends on single parent property(Font-size)
+      1em stands 1 time of parents font size
+
+      we can also use rem which is root enumerated values. its values depends on body font size
+      1rem stands for 1 time of body's font size
+
+
+ Float : Float is used to arrange the elements either left or right , but the next element might occupy the space surrounded by the floating element
+     float:left/right/none
+
+  To clear the Float, you can use clear:left/right/both/none;
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

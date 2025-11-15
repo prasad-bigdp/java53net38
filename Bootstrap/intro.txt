@@ -1,0 +1,17 @@
+Bootstrap is a CSS framework which is used to provide responsive web layouts. it is a utility and component libray also
+html
+   <h1>Hello World</h1>
+
+CSS
+   .green{
+    background-color:green
+   }
+How to connect Bootstrap to HTML ?
+Bootstrap official website is bootstrap5(getbootstrap.com). if you go to docs--> introduction --> you can css and js of bootstrap cdn links (content delivery network). copy and them and paste into your own HTML
+
+Bootstrap already contains lot of CSS, all you have to do provide suitable class names to get the particular CSS
+
+Bootstrap also provides readymade components which also be triggered using classnames
+
+
+

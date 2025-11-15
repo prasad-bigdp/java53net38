@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+}
+header>p{
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.heading{
+    background-color: black;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+main{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#telugu>h2{
+    font-size: 48px;
+    margin: 20px 0px;
+    background-image: linear-gradient(to right,orange,blue);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.movie{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+.movie>a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.movie1:hover{
+    transform: scale(1.2);
+}
+.movie2:hover{
+    transform: rotate(360deg);
+}
+.movie3:hover{
+    transform: skew(50deg);
+}
+.movie4:hover{
+    transform: translateY(30px);
+}
+.movie5:hover{
+    transform: translateX(40px);
+}
+.movie6:hover{
+  opacity: 0;
+}
+
+footer{
+    padding: 30px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+

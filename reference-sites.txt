@@ -1,0 +1,28 @@
+Extensions:
+----------
+   Wapplyzer
+   Mobile Simulator
+   Detailed SEO
+
+Articles
+----------
+   Daily Dev
+   dev.to
+   hashnode
+
+Fonts
+----------
+   Google fonts, dafont, 1001 fonts
+
+Pictures
+-----------
+    Pexels,unsplash, pixabay,freepik,  ideogram ai 
+
+ICONS
+-----------
+   font awesome, icon scout, icons8, bootstrap icons8
+
+ILLUSTRATIONS / designs
+------------------------
+   undraw, UIgoodies
+   Figma, Dribble, behance, awwwards

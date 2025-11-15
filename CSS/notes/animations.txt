@@ -1,0 +1,9 @@
+animations: animations are used to makes web pages more interactive. animations are nothing but multiple transitions between multiple states. They automatically get triggers whenever page reloads
+animation: animation-name duration timining-function direction iteration delay
+animation name can be anything but needs to be defined its own keyframes 0% to 100%(duration is percentage)
+duration is the total time animation takes for 1 turn(in seconds)
+timining function is same as transition timing functions
+direction can be normal(0-100), reverse(100-0), alternate(0-100-0), alternate-reverse(100-0-100)
+iteration is the count of how many times animation to work (infinite also available)
+delay is the time to delay animation(in seconds)
+

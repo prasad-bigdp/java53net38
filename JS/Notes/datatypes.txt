@@ -1,0 +1,131 @@
+Datatypes:
+
+Number: number is used to declare numerical values(integers,decimals etc..,)
+numbers have default methods like
+   -- toFixed(val) -- it is used to round upto certain decimal digits
+   eg:let a = 1.1456, 
+   console.log(a.toFixed(2))  //1.15
+   -- toPrecision(val) -- it is used to round upto total digits given
+   eg: let a = 1.1456;
+   console.log(a.toPrecision(3)) //1.15
+   -- toString(baseValue) - converts number to string. it can convert to certain base values
+   eg: let a= 25;
+   console.log(a.toString(2)) //11001
+
+Math Methods :  numbers can also do math methods such as
+  Math.max(a,b,c,d....) -- returns maximum value
+  Math.min(a,b,c,d....) -- returns minimum value
+  Math.abs(negitive) -- returns positive value
+  Math.sqrt(num) -- returns square root of num
+  Math.cbrt(num) -- returns cube root of num
+  Math.pow(a,b) -- returns a power b value
+   --> we can also acheve this by a**b
+  Math.ceil(num) -- returns nearest higher integer
+  Math.floor(num) -- returns nearest lower integer
+  Math.round(num) -- returns nearest rounded integer
+  Math.random() -- returns value between  0 and 1
+
+Tasks:
+//JS code to get ludo dice
+console.log(Math.ceil(Math.random() * 6))
+// i want between 10 to 20
+console.log(Math.ceil(Math.random() * 10) + 10)
+// generate 4 digit OTP
+console.log(Math.ceil(Math.random() * 10000) )
+
+// Write JS code to generate random color for css
+"#" + Math.round(Math.random() * 10000000).toString(16)
+or
+let r = Math.round(Math.random()*255)
+let g = Math.round(Math.random()*255)
+let b = Math.round(Math.random()*255)
+console.log('rgb("+r+","+g+","+b")')
+// dummy text
+Strings : strings are used to store or declare alphabets and numbers or symbols. In js, strings can be denoted in 3 ways.
+Strings can be denoted in ' ' , " " and ` `.
+single or double quotations are same , can also used in nested strings
+backticks are used to represent dynamic strings without breaking the string. it is also called template literal
+eg: let cost = 50, quantity =5;
+console.log(`The total price of ${quantity} apples with each price ${cost} is ${cost*quantity}`)
+
+string methods:
+   i. length : it is used to print the total characters in given string
+   let s = "prasad"
+   console.log(s.length);
+
+   ii. toUpperCase() : it is used to convert the given string into uppercase and returns it
+   console.log(s.toUpperCase()) //PRASAD
+
+   iii.toLowerCase(): it is used to convert the given string into lowercase and returns it
+   console.log(s.toLowerCase()) //prasad
+
+   iv. charAt(ind) : it is used to return character at speciified index
+   console.log(s.charAt(2)) //a
+   
+   v. indexOf(v) : it is used to return index of first occurence of given value
+   console.log(s.indexOf('a'))  //2
+   for last occurence , we can use lastIndexOf(v)
+   console.log(s.lastIndexOf('a')) //4
+
+   vi. trim(): it is used to remove spaces,line terminals from first and last of given string.
+    s = "    js is easy     "
+    console.log(s.trim())//js is easy
+    we can also use trimStart and trimEnd
+
+   vii. startsWith() and endsWith(): used to check whether given string is starting with/ ending with a specific value or not and returns true/false
+   s = "prasad"
+   console.log(s.startsWith("pr"))  //true
+
+   viii. slice(start,end): it will return sub string from starting index to end-1 index
+
+   ix. replace('old','new'): it will replace first occurence of old character to new character
+   let s= "prasad"
+   console.log(s.replace('a','k')) //prksad;
+   To change all, we can use method replaceAll
+
+   x. concat(str) : it is used to combine two strings, we can also use +
+   let s ="raj",p = " prasad"
+   console.log(s.concat(p))  //raj prasad
+
+   xi. split(delimiter) : it is used to split values based on delimiter, In absence of delimiter, it splits all characters
+   let s = "prasad"
+   console.log(s.split("a")) // ["pr","s","d"]
+   console.log(s.split(""))  // ["p","r","a","s","a","d]
+
+Boolean: boolean is used to store true or false.
+undefined: it is accident absence of value which is provided to the variable is not initalized any value
+null : it is intentional absence value
+let a ;
+s="prasad"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

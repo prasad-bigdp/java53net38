@@ -1,0 +1,39 @@
+CSS : cascading styled sheets started in 1994 to provide style/design to the web pages. It also provides layout and makes the website more interactive and user friendly
+CSS contains Properties with values specified for a selector
+   selector 
+   {
+      Property:value,............
+   }
+There are three types of CSS :
+   i. Internal Styling/CSS : it is used to provide CSS within 'style' element
+    <style>
+       CSS CODE HERE
+    </style>
+
+   ii. Inline Styling/CSS : it is used to provide CSS within HTML element as 'style' attribute
+   <element style="CSS CODE"></element>
+
+   iii. External Styling/CSS : it is used to Provide CSS in an external file and attach it to HTML file using link tag
+
+   CSS Follows Priority Such as !important > Inline >Internal=External.
+   Between Internal and External, the one which comes later cascades the previous one
+
+   selectors : selectors are used to select an element. Basic CSS Selectors are
+   i. tagname:  we can select all the elements of specific tag using tagname selector
+   ii. class : we can select HTML elements using an attribute class. Multiple element may contain same class name or single element may contain multiple class names. we can select class by symbol dot(.classname)
+   iii. id : we can select any HTML element using an attribute ID. ID's are unique for a HTML element. we can select id by symbol hash(#id).
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
