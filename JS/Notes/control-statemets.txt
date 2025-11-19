@@ -1,0 +1,168 @@
+Control Statements in JAvascript: These Statements are used to change the flow of execution. They have different flows based on decision, so also called decision making Statements
+
+Most used Control Statements are 
+1. if
+2. switch
+
+1.if: it is used to execute a block of code when the condition is true
+   simple if: 
+      if(condition)
+      {
+        //flow when condition is true
+      }
+
+//Print only a value if it is greater than 10
+// let a = +prompt("enter a value");
+// if (a > 10)
+// {
+//     console.log(`${a} is greater than 10`)
+// }
+
+   if_else:
+   syntax: if(condition)
+           {
+            // true logic
+           }
+           else{
+            //false logic
+           }
+   // check whether given number is even or odd
+// let isEvenOdd = +prompt("Enter a number")
+// if (isEvenOdd % 2 == 0)
+//     console.log(`${isEvenOdd} is Even number`)
+// else
+//     console.log(`${isEvenOdd} is ODD number`)
+
+  if_else_if:
+     syntax: if(condition){
+        //true logic
+     }
+     else if(condition2)
+     {
+        // works if condition fails and condition2 is true
+     }
+     else
+     {
+        // works if all above conditions are false
+     }
+   Nested if is nothing but if inside another if
+  2. switch : it is used as an alternative to if_else_if
+ switch (answer)
+{
+    case 1: console.log("correct answer"); break;
+    case 2: console.log("Wrong answer"); break;
+    case 3: console.log("Wrong answer"); break;
+    case 4: console.log("Wrong answer"); break;
+    default: console.log("Enter a valid answer");
+}
+
+Here each case represent different value if switch value matches with case value then only it will execute the case. After every case, we can terminate the block using 'break'. Absence of 'break' keyword makes the control fall to next case.
+'default' is a special case which get executed when none of the above cases were matched.
+
+
+Loops: Loops are used to iterate certain statements again and again until the given condition is false.
+There are two kinds of loops. 
+i. Entry Control Loop                 ii. Exit Control Loop
+
+i. Entry Control loops : These loops checks the condition at the starting of the loop so that if the condition is true, then only it will execute the block.
+eg: while and for
+The loop will get terminate when condition is false. Until the condition is false, it will iterate and execute the block again and again
+while syntax : initialization;
+while(condition){
+    //body
+    updation;
+}
+
+
+let attempt = 0;
+while (true)
+{
+    let value = Math.ceil(Math.random() * 6);
+    console.log(value)
+		attempt++
+    if (value == 6)
+        break;
+    
+}
+console.log(`no of attempts are: ${attempt}`);
+
+
+
+
+ii. Exit Control loops: These loops are used to check the condition at the time of exit. if the condition is true , it iterates again else it terminates the loop
+For the first time, it allows without any checking
+do while syntax:
+   initialization;
+   do{
+    //body
+   }while(condition);
+
+eg: print values from 20 to 1 using do while loop
+   let i = 20;
+   do{
+    console.log(i);
+    i--;
+   }while(i>=1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

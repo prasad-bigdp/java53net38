@@ -1,0 +1,17 @@
+Javascript
+         Introduction
+         var,let,const
+         datatypes(number,string,boolean,undefined,null) , type casting
+         operators
+         control statements(if, switch)
+         loops(for, while,do while)
+         functions(callback,closure,rest,spread,function with default parameters)
+         arrays
+         objects
+DOM     -- create,dom,select,events(types of events, event listners vs handlers, propogation,delegation)
+
+Async  -- AJAX,timers
+          callback hell, promises, fetch
+          API's , async await, BOM
+          libraries(JQuery), ES6
+   

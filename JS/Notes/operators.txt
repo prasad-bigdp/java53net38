@@ -1,0 +1,41 @@
+Operators in Javascript: Operators are used to perform operations
+ 1. Arithematic operators:
+ console.log(2 + 3, 2 - 3, 2 * 3, 2 / 3, 2 % 3, 2 ** 3);
+// 5 -1 6 0.6666667 2 8
+2. Relational operators:
+console.log(2 < 3, 2 > 3, 2 <= 3, 2 >= 3, 2 == '2',2 === '2', 2 != '2', 
+2 !=='2')  // write here output
+//Logical
+3. let a = 10, b = 20;
+console.log(a > 5 && a < 50,
+    a > 20 || a < 30,
+    !(a>25)
+)
+4. // Assignment
+a = 5;
+a += 2; // a= a +2
+console.log(a);
+a -= 2 // a= a - 2
+console.log(a) //5
+a *= 2;
+a = a / 2;
+a = a % 2;
+a = a ** 2;
+
+5. //increment & decrement
+a = 6
+let x =++a + 4;
+console.log(a)
+a = 3, b = 4;
+x = a++ + ++a + --b + b--;
+console.log(x);
+
+6. //special operators
+console.log(5 + +'3')
+console.log(typeof a);
+a = undefined ?? 3;//nullish coelision operator
+console.log(a)
+
+7. //Ternary /conditional operator
+let c = (a > 5) ? 10 : 20;
+console.log(c);
